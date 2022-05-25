@@ -1,0 +1,598 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="faav.png" type="image/x-icon">
+    
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>PORTFOLIO</title>
+</head>
+<body>
+
+    <svg class="blob" viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(-182, -158)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: rgb(233, 100, 67);"></stop>
+              <stop offset="100%" style="stop-color: rgb(144, 78, 149);"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+              <animate attributeName="d" 
+              dur="10000ms"
+              repeatCount="indefinite"
+              values="M415.5,303Q397,356,343.5,364Q290,372,237.5,411.5Q185,451,158,393.5Q131,336,81.5,293Q32,250,60.5,191.5Q89,133,146,118.5Q203,104,258,79.5Q313,55,346.5,105Q380,155,407,202.5Q434,250,415.5,303Z;
+              M390,299Q384,348,337,360.5Q290,373,242,397Q194,421,140,395Q86,369,54,309.5Q22,250,40,180.5Q58,111,131,110Q204,109,263.5,67.5Q323,26,381.5,69Q440,112,418,181Q396,250,390,299Z;
+              M413,311.5Q420,373,362,395Q304,417,250,416.5Q196,416,172,370Q148,324,129,287Q110,250,121.5,207.5Q133,165,156,98.5Q179,32,250.5,30.5Q322,29,360.5,85.5Q399,142,402.5,196Q406,250,413,311.5Z;
+              M392.5,291Q363,332,331.5,367.5Q300,403,241,430.5Q182,458,142.5,407Q103,356,67.5,303Q32,250,52.5,186Q73,122,138,113.5Q203,105,250.5,104Q298,103,361.5,113Q425,123,423.5,186.5Q422,250,392.5,291Z;
+              M415.5,303Q397,356,343.5,364Q290,372,237.5,411.5Q185,451,158,393.5Q131,336,81.5,293Q32,250,60.5,191.5Q89,133,146,118.5Q203,104,258,79.5Q313,55,346.5,105Q380,155,407,202.5Q434,250,415.5,303Z"></animate>
+          </path>
+        </g>
+      </svg>
+
+      <svg class="blob" viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(-182, -158)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: rgb(233, 100, 67);"></stop>
+              <stop offset="100%" style="stop-color: rgb(144, 78, 149);"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+              <animate attributeName="d" 
+              dur="10000ms"
+              repeatCount="indefinite"
+              values="M415.5,303Q397,356,343.5,364Q290,372,237.5,411.5Q185,451,158,393.5Q131,336,81.5,293Q32,250,60.5,191.5Q89,133,146,118.5Q203,104,258,79.5Q313,55,346.5,105Q380,155,407,202.5Q434,250,415.5,303Z;
+              M390,299Q384,348,337,360.5Q290,373,242,397Q194,421,140,395Q86,369,54,309.5Q22,250,40,180.5Q58,111,131,110Q204,109,263.5,67.5Q323,26,381.5,69Q440,112,418,181Q396,250,390,299Z;
+              M413,311.5Q420,373,362,395Q304,417,250,416.5Q196,416,172,370Q148,324,129,287Q110,250,121.5,207.5Q133,165,156,98.5Q179,32,250.5,30.5Q322,29,360.5,85.5Q399,142,402.5,196Q406,250,413,311.5Z;
+              M392.5,291Q363,332,331.5,367.5Q300,403,241,430.5Q182,458,142.5,407Q103,356,67.5,303Q32,250,52.5,186Q73,122,138,113.5Q203,105,250.5,104Q298,103,361.5,113Q425,123,423.5,186.5Q422,250,392.5,291Z;
+              M415.5,303Q397,356,343.5,364Q290,372,237.5,411.5Q185,451,158,393.5Q131,336,81.5,293Q32,250,60.5,191.5Q89,133,146,118.5Q203,104,258,79.5Q313,55,346.5,105Q380,155,407,202.5Q434,250,415.5,303Z"></animate>
+          </path>
+        </g>
+      </svg>
+
+<!-- 
+      <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(324, -248)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: rgb(233, 100, 67);"></stop>
+              <stop offset="100%" style="stop-color: rgb(144, 78, 149);"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate attributeName="d" 
+            dur="10000ms"
+            repeatCount="indefinite"
+            values="            M388,343Q358,436,257.5,424Q157,412,123.5,331Q90,250,128,177.5Q166,105,257,92.5Q348,80,383,165Q418,250,388,343Z            ;
+            M389,337.5Q351,425,262.5,403Q174,381,136.5,315.5Q99,250,119,153.5Q139,57,238,78Q337,99,382,174.5Q427,250,389,337.5Z;
+            M416,337.5Q351,425,256.5,414Q162,403,106.5,326.5Q51,250,91.5,148Q132,46,235.5,71Q339,96,410,173Q481,250,416,337.5Z;
+            M388,343Q358,436,257.5,424Q157,412,123.5,331Q90,250,128,177.5Q166,105,257,92.5Q348,80,383,165Q418,250,388,343Z"></animate>  
+
+          </path>
+        </g>
+      </svg>
+      -->
+
+      
+
+
+
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+
+                        <img src="  " alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Tejaash Gandepalli</h2>
+                <h3 class="profile__profession">Web developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/" target="_blank" class="profile__social-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tejaash-gandepalli-6a5370212/" target="_blank" class="profile__social-link">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/GTejaash" target="_blank" class="profile__social-link">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">3</h3>
+                    <p class="profile__info-description">
+                        Years of <br> learning
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">3+</h3>
+                    <p class="profile__info-description">
+                        Completed <br> projects
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">0</h3>
+                    <p class="profile__info-description">Satisfied <br> customers</p>
+                </div>
+            </div>
+            <!-- BUTTONS -->
+
+            <div class="profile__buttons">
+                <a download="" href="Tejaash RESUME.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=919059350659&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.facebook.orca&hl=en_IN&gl=US" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+                <button class="filters__button" data-target="#Achievements">
+                    Achievements
+                </button>
+              
+            </ul>
+
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="vignan.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">College Webpage</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="google.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Redesigned Google</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="ecm.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">ECM department </h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="fps.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Finer Pictures</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <!-- <article class="projects__card">
+                        <img src="project5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h3 class="projects__title">Music app design</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <!-- <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div> -->
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <!-- <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <!-- <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Programming</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <!-- <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                            
+                            <div class="skills__group">
+                                <!-- <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div> -->
+    
+                                <!--  <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+    
+                                <div class="skills__data">
+                                    <i class="fa fa-check-square"></i>    
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                        <div class="skills__area">
+                            <h3 class="skills__title">Other Skills</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa fa-check-square"></i>    
+                                        <div>
+                                            <h3 class="skills__name">Analyzing</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa fa-check-square"></i>    
+                                        <div>
+                                            <h3 class="skills__name">problem solver</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <!-- <div class="skills__data">
+                                        <i class="fa fa-check-square"></i>    
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa fa-check-square"></i>    
+                                        <div>
+                                            <h3 class="skills__name">Communication</h3>
+
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <!-- <div class="skills__data">
+                                        <i class="fa fa-check-square"></i>    
+                                        <div>
+                                            <h3 class="skills__name">Node Js</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="achievements__content grid" data-content id="Achievements">
+                    <article class="achi__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="infosys.png" alt="" class="achi__img">
+
+                        <div class="achi__modal">
+                            <div>
+                                <span class="achi__subtitle">Infosys</span>
+                                <h3 class="achi__title">Campus Ambassador</h3>
+                                <a href="#" class="achi__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="achi__card">
+                        <img src="python.png" alt="" class="achi__img">
+
+                        <div class="achi__modal">
+                            <div>
+                                <span class="achi__subtitle">Hacker Rank</span>
+                                <h3 class="achi__title">Gold Badge for Python</h3>
+                                <a href="#" class="achi__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- <article class="projects__card">
+                        <img src="fps.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Finer Pictures</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="ecm.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">ECM department </h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+
+
+
+
+
+                    <!-- <article class="projects__card">
+                        <img src="project5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h3 class="projects__title">Music app design</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+                </div>
+
+
+
+                
+
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        
+
+        <span class="footer__copy">
+            &#169; G.TEJAASH . All rigths reserved
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="scroll.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+</html>
